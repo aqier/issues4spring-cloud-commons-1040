@@ -1,0 +1,6 @@
+# Environment Post Processors
+org.springframework.boot.env.EnvironmentPostProcessor=\
+  com.aqier.spring.cloud.common.issues1040.CustomizedConfigCenter
+
+org.springframework.context.ApplicationListener=\
+  com.aqier.spring.cloud.common.issues1040.DeferredLogger
